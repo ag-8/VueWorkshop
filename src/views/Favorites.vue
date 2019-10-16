@@ -8,7 +8,9 @@
           <img :src="dog.img">
         </v-list-item-avatar>
         <v-list-item-content>{{dog.name}}</v-list-item-content>
-        <v-icon @click="removeFromFavorites(dog)">delete</v-icon>
+        <v-btn class="focus" @click="removeFromFavorites(dog)">
+          <v-icon>delete</v-icon>
+        </v-btn>
       </v-list-item>
       <v-btn to="/form">Adopt</v-btn>
     </div>

@@ -6,6 +6,7 @@
       <p>Kibble, sale in bulk, $20/lb</p>
       <img
         src="https://raw.githubusercontent.com/VueVixens/projects/master/petshop/images/food.png"
+        alt="Dog Food"
       >
     </div>
     <div class="panel bisque">
@@ -16,6 +17,7 @@
       <p>Fisher, Chihuahua, age 3</p>
       <img
         src="https://raw.githubusercontent.com/VueVixens/projects/master/petshop/images/chihuahua.jpg"
+        alt="Chihuahua"
       >
     </div>
 
@@ -27,6 +29,7 @@
       <p>Meet Stanley, A young French Bulldog</p>
       <img
         src="https://raw.githubusercontent.com/VueVixens/projects/master/petshop/images/bulldog.jpg"
+        alt="French Bulldog"
       >
     </div>
     <div class="panel tall-panel light-mint">
@@ -34,6 +37,7 @@
       <p>Bennie found his forever home!</p>
       <img
         src="https://raw.githubusercontent.com/VueVixens/projects/master/petshop/images/collie.jpg"
+        alt="Collie"
       >
     </div>
 

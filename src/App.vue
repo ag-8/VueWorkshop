@@ -11,7 +11,7 @@
               <v-btn to="/pets" text>Pets</v-btn>
             </v-toolbar-items>
             <v-spacer></v-spacer>
-            <router-link to="/favorites">
+            <router-link to="/favorites" aria-label="Favorites">
               <v-badge color="grey lighten-1" overlap right v-model="favorites.length">
                 <span slot="badge">{{favorites.length}}</span>
                 <v-icon large>loyalty</v-icon>
@@ -48,6 +48,14 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
+v-btn:active{
+  background-color: green;
+}
+
+:focus {
+  background-color: green;
+}
 
 /*brown and mint*/
 /*dark brown 32292F
